@@ -1,0 +1,73 @@
+@font-face{
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+.btnarrow{
+    display: inline;
+    color: #4E95D9;
+}
+
+.pagereturnbtn{
+    display: inline;
+    font-weight: lighter;
+    color: #4E95D9;
+    text-decoration: none;
+}
+.pagereturnbtn:hover{
+    text-decoration: underline;
+}
+
+.applybtn{
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 2.5px solid #7F7F7F;
+    margin-top: 17px;
+    height: fit-content;
+    font-size: 20px;
+}
+.applybtn:hover{
+    background-color: #404040;
+}
+.applybtn:active{
+    background-color: #4e96d94f;
+}
+
+.submitbtn{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 2.5px solid #7F7F7F;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: #262626;
+    font-family: Montserrat;
+}
+.submitbtn:hover{
+    background-color: #404040;
+}
+.submitbtn:active{
+    background-color: #4e96d94f;
+}
+
+.courseviewbtn{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 2.5px solid #7F7F7F;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.courseviewbtn:hover{
+    background-color: #404040;
+}
+.courseviewbtn:active{
+    background-color: #4e96d94f;
+}

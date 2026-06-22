@@ -1,0 +1,87 @@
+@font-face{
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    background-color: #262626;
+    color:#ffffff;
+    font-family: 'Montserrat';
+}
+p{
+    font-size: 20px;
+}
+h2{
+    margin-left: 15px;
+}
+h3{
+    margin-left: 15px;
+    color: #4E95D9;
+}
+fieldset{
+    border: 2.5px solid #7F7F7F;
+}
+
+.header1row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.pagecontent{
+    margin-left:275px;
+    padding:10px 16px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.pagecontent li{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container div{
+    margin: 10px;
+    padding: 20px;
+}
+@media (max-width: 1250px){
+  .flex-container{flex-direction: column;}
+}
+
+.teammembercontent{
+    display: flex;
+}
+.teammembercontent img{
+    width: 125px;
+    height: 150px;
+}
+.teammembercontent p{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.testimonialcontent p{
+    padding: 10px;
+}
+
+footer{
+    background-color: #4e96d94f;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    margin-left:235px;
+    padding: 5px;
+    border-top: 1px solid #4E95D9;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 600;
+}
+footer i{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(150, 150, 150);
+}

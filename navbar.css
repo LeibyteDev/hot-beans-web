@@ -1,0 +1,57 @@
+@font-face{
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 235px;
+    background-color: #3A3A3A;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    border-right: 2.5px solid #7F7F7F;
+}
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+li a.active{
+    background-color: #4E95D9;
+    color: white;
+    font-weight: 600;
+}
+li a:hover:not(.active){
+    background-color: #404040;
+    color: white;
+}
+li a:active:not(.hover){
+    background-color: #4e96d94f;
+    color: white;
+}
+
+.navbarlogo{
+    padding-top: 30px;
+    padding-left: 35px;
+}
+.navbarlogotext{
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    font-size: 30px;
+}
+.navbaritem{
+    display: inline;
+    padding-left: 12px;
+}
+.navbaricon{
+    padding-left: 9px;
+    margin: -8px;
+}

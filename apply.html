@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hot Beans Web > Vacancies > Apply</title> <!-- Tab bar and favicon -->
+        <link rel="Icon" href="images/hotBeansWeb-Logo.png">
+        <link rel="stylesheet" type="text/css" href="navbar.css"> <!-- External CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="buttons.css">
+        <link rel="stylesheet" type="text/css" href="forms.css">
+        <meta charset="UTF-8"> <!-- SEO -->
+        <meta name="keywords" content="html, web, website, development, css">
+    </head>
+    <body>
+        <div> <!-- Side navigation bar -->
+            <ul>
+                <li><img src="images/hotBeansWeb-Logo.png" alt="Hot Beans Web Logo" height="60" width="60" class="navbarlogo"></li>
+                <li class="navbarlogotext"><b>Hot Beans<br>Web</b></li>
+                <li>
+                    <a href="index.html">
+                        <img src="images/infoIcon.svg" alt="About Us Icon" height="35" width="35" class="navbaricon">
+                        <div class="navbaritem">About Us</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="ourteam.html">
+                        <img src="images/groupIcon.svg" alt="Our Team Icon" height="35" width="35" class="navbaricon">
+                        <div class="navbaritem">Our Team</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="vacancies.html">
+                        <img src="images/clipboardIcon.svg" alt="Vacancies Icon" height="35" width="35" class="navbaricon">
+                        <div class="navbaritem">Vacancies</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <img src="images/booksIcon.svg" alt="Courses Icon" height="35" width="35" class="navbaricon">
+                        <div class="navbaritem">Courses</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pagecontent">
+            <h1><a href="vacancies.html" class="pagereturnbtn">Vacancies ></a> Apply</h1>
+            <br>
+            <form action="MAILTO:0025000746@student.ccsw.ac.uk" method="post" enctype"text/plain">
+            <h2>PERSONAL DETAILS AND CONTACT</h2>
+            <fieldset>
+            <div class="flex-container">
+                <h3>YOUR NAME <div class="required">*</div></h3>
+                <div>
+                    <input type="text" name="fullname" placeholder="Enter your name..." style="font-size: 20px;" required><br>
+                    <br>
+                </div>
+                <h3>PHONE NUMBER <div class="required">*</div></h3>
+                <div>
+                    <input type="text" name="phonenumber" placeholder="Enter your phone number..." style="font-size: 20px;" required><br>
+                    <br>
+                </div>
+            </div>
+            <div class="flex-container">
+                <h3>EMAIL</h3>
+                <div>
+                    <input type="text" name="phonenumber" placeholder="Enter your email..." style="font-size: 20px;"><br>
+                    <br>
+                </div>
+                <h3>APPLYING FOR <div class="required">*</div></h3>
+                <div>
+                    <select name="position" required>
+                        <option value="" selected disabled hidden>Select position...</option>
+                        <option value="traineewebdev">Trainee Website Developer</option>
+                    </select>
+                </div>
+                <br>
+            </div>
+            </fieldset>
+            <br><br>
+            <h2>EDUCATION AND EMPLOYMENT</h2>
+            <fieldset>
+            <div class="flex-container">
+                <h3>YOUR EDUCATIONAL EXPERIENCE</h3>
+                <div>
+                    <textarea type="text" name="eduexperience" placeholder="Enter your educational experience..."></textarea><br>
+                    <br>
+                </div>
+                <h3>YOUR EMPLOYMENT HISTORY</h3>
+                <div>
+                    <textarea type="text" name="employhistory" placeholder="Enter your employment history..."></textarea><br>
+                    <br>
+                </div>
+            </fieldset>
+            <br>
+            <button type="submit" class="submitbtn">Submit <div class="btnarrow">></div></button>
+            </form>
+        </div>
+        <footer>
+            <p>&copy; Hot Beans Web</p>
+        </footer>
+    </body>
+</html>
