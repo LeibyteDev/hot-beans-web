@@ -8,14 +8,12 @@ I am releasing this website publicly, open source, to allow anyone who may very 
 
 > ⚠️ <b>I do not recommend copy-and-pasting this website's code or assets into your own website if you are doing an assignment as you may be flagged for plagarism.</b>
 
----
-
 ## Website updates
 This website will not recieve any additional updates or changes as I have no intentions to develop this website further. I will not be accepting any further contributions, including pull requests.
 
 ## Website licensing
 This website, including its code and assets, is licensed under the [MIT license](LICENSE).
 
----
+<hr>
 
 © Leibyte
