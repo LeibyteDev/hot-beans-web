@@ -1,6 +1,6 @@
-## Hot Beans Web Website
+# Hot Beans Web Website
 
-This is a simple and functional website developed for a fictionalised scenario of a website development company called "Hot Beans Web", which was created for a website development assignment. Alongside the evaluation, this website achieved a Distinction grade.
+This is a simple and functional website developed for a fictionalised scenario of a website development company called "Hot Beans Web", which was created for a website development assignment.
 
 This website was developed using a mix of HTML and CSS code, and only includes what was required for the assignment. Due to time constraints and limits to my own ability, there will be a lack of features or improvements implemented.
 
@@ -10,10 +10,10 @@ I am releasing this website publicly, open source, to allow anyone who may very 
 
 ---
 
-### Website updates
+## Website updates
 This website will not recieve any additional updates or changes as I have no intentions to develop this website further. I will not be accepting any further contributions, including pull requests.
 
-### Website licensing
+## Website licensing
 This website, including its code and assets, is licensed under the [MIT license](LICENSE).
 
 ---
