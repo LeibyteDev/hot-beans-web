@@ -14,6 +14,6 @@ This website will not recieve any additional updates or changes as I have no int
 ## Website licensing
 This website, including its code and assets, is licensed under the [MIT license](LICENSE).
 
-<hr>
+<br>
 
 © Leibyte
